@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import ToggleComponent from "./1-useToggle/ToggleComponent";
+import TimeOutComponent from "./2-useTimeout/TimeoutComponent";
+import LocalStorageComponent from "./0-useLocalStorage/LocalStorageComponent";
+// import DebounceComponent from "./3-useDebounce/DebounceComponent/";
+// import UpdateEffectComponent from "./4-useUpdateEffect/TimeoutComponent/";
+// import ArrayComponent from "./5-useArray/ArrayComponent/";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <LocalStorageComponent />
+      {/* <ToggleComponent /> */}
+      {/* <TimeOutComponent /> */}
+      {/* <DebounceComponent /> */}
+      {/* <UpdateEffectComponent /> */}
+      {/* <ArrayComponent /> */}
     </div>
   );
 }
