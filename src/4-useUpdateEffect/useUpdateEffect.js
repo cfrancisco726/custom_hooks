@@ -9,7 +9,7 @@ function useUpdateEffect(callback, dependencies) {
       return;
     }
     return callback();
-  }, dependencies);
+  }, dependencies); //first render it doesn't run, after runs like useEffect
 }
 
-export default 4 - useUpdateEffect;
+export default useUpdateEffect;

@@ -12,8 +12,8 @@ function App() {
       {/* <LocalStorageComponent /> */}
       {/* <ToggleComponent /> */}
       {/* <TimeOutComponent /> */}
-      {/* <DebounceComponent /> */}
-      <UpdateEffectComponent />
+      <DebounceComponent />
+      {/* <UpdateEffectComponent /> */}
       {/* <ArrayComponent /> */}
     </div>
   );
